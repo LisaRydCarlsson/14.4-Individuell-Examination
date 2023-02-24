@@ -113,7 +113,7 @@ searchBarEl.addEventListener('keyup', function () {
         }
     })
     } else {
-        resultsContainer.innerHTML = "Inga planeter hittades, testa gärna igen.";
+        resultsContainer.innerHTML = "Även solen har fläckar. Bättre lycka nästa sök.";
     }
 });
 

@@ -6,15 +6,10 @@
     padding: 0;
 }
 
-:root {
-    --earth-blue: #428ED5;
-    --sun-yellow: #ffcc3f;
-    --universe-dark-blue: #0C164D;
-    --universe-dark-purple: #190B22;
-}
-
 body {
     background-color: black;
+    font-family: Secular One;
+    color: white;
 }
 
 header {
@@ -23,9 +18,7 @@ header {
 }
 
 h1 {
-    font-family: Secular One;
     font-size: 2.7rem;
-    color: white;
     letter-spacing: 0.2rem;
 }
 
@@ -33,14 +26,12 @@ h2 {
     font-family: Lora;
     font-size: 1rem;
     font-weight: 100;
-    color: var(--sun-yellow);
+    color: #ffcc3f;
     letter-spacing: 0.5rem;
 }
 
 h3 {
-    font-family: Secular One;
     font-size: 1.2rem;
-    color: white;
     letter-spacing: 0.2rem;
 }
 
@@ -48,23 +39,21 @@ p, #search-bar {
     font-family: Roboto Condensed;
     font-size: 0.8rem;
     font-weight: 300;
-    color: white;
     letter-spacing: 0.2rem;
 }
 
 #search-bar {
-    border: 0.1rem solid var(--earth-blue);
+    color: white;
+    border: 0.1rem solid #428ED5;
     border-radius: 0.5rem;
     background-color: black;
-    box-shadow: 0px 0px 10px var(--earth-blue);
+    box-shadow: 0px 0px 10px #428ED5;
     margin-top: 3rem;
     padding: 1rem;
-    color: white;
     text-align: right;
 }
 
 .results-container {
-    color: white;
     margin-top: 2rem;
     line-height: 1.5rem;
     position: absolute;
@@ -72,7 +61,6 @@ p, #search-bar {
     font-family: Roboto Condensed;
     font-size: 0.8rem;
     font-weight: 300;
-    color: white;
     letter-spacing: 0.2rem;
 }
 
@@ -103,10 +91,6 @@ p, #search-bar {
     display: block;
 }
 
-.planet-name {
-    color: white;
-}
-
 .planets {
     display: flex;
     justify-content: space-between;
@@ -118,8 +102,8 @@ p, #search-bar {
 #Solen {
     width: 50rem;
     height: 50rem;
-    background-color: var(--sun-yellow);
-    box-shadow: 30px 0px 200px var(--sun-yellow);
+    background-color: #ffcc3f;
+    box-shadow: 30px 0px 200px #ffcc3f;
     margin-left: -45rem;
 }
 
@@ -127,21 +111,21 @@ p, #search-bar {
     width: 0.9rem;
     height: 0.9rem;
     background-color: #888888;
-    box-shadow: inset -3px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset -3px 1px 1px #00000033;
 }
 
 #Venus {
     width: 1.6rem;
     height: 1.6rem;
     background-color: #E7CDCD;
-    box-shadow: inset -5px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset -5px 1px 1px #00000033;
 }
 
 #Jorden {
     width: 1.8rem;
     height: 1.8rem;
     background-color: var(--earth-blue);
-    box-shadow: inset -5px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset -5px 1px 1px #00000033;
 }
 
 #Mars {
@@ -149,7 +133,7 @@ p, #search-bar {
     height: 0.9rem;
     background-color: #EF5F5F;
     border-radius: 50%;
-    box-shadow: inset -4px 1px 1px rgba(0, 0, 0, 0.2); 
+    box-shadow: inset -4px 1px 1px #00000033; 
 }
 
 #Jupiter {
@@ -157,7 +141,7 @@ p, #search-bar {
     height: 12rem;
     background-color: #E29468;
     border-radius: 50%;
-    box-shadow: inset -15px 1px 1px rgba(0, 0, 0, 0.2);   
+    box-shadow: inset -15px 1px 1px #00000033;   
 }
 
 #Saturnus {
@@ -165,7 +149,7 @@ p, #search-bar {
     height: 9rem;
     background-color: #C7AA72;
     border-radius: 50%;
-    box-shadow: inset -13px 1px 1px rgba(0, 0, 0, 0.2);  
+    box-shadow: inset -13px 1px 1px #00000033;  
 }
 
 #Uranus {
@@ -173,7 +157,7 @@ p, #search-bar {
     height: 4rem;
     background-color: #C9D4F1;
     border-radius: 50%;
-    box-shadow: inset -11px 1px 1px rgba(0, 0, 0, 0.2);  
+    box-shadow: inset -11px 1px 1px #00000033;  
 }
 
 #Neptunus {
@@ -181,16 +165,14 @@ p, #search-bar {
     height: 4rem;
     background-color: #7A91A7;
     border-radius: 50%;
-    box-shadow: inset -11px 1px 1px rgba(0, 0, 0, 0.2); 
+    box-shadow: inset -11px 1px 1px #00000033; 
 }
 
 .close-overlay {
-    font-family: 'Secular One', sans-serif;
     background-color: transparent;
     appearance: none;
     border: 1px solid white;
     border-radius: 5px;
-    color: white;
     padding: .6rem 2rem;
     margin-left: 100rem;
     margin-top: 20px;
@@ -222,7 +204,6 @@ p, #search-bar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
 }
 
 .planet-info__name-desc {
@@ -232,9 +213,9 @@ p, #search-bar {
 }
 
 .planet__name {
-    color: white;
-    font-family: 'Secular One', sans-serif;
+    font-family: Secular One;
     font-size: 3.75rem;
+    color: white;
     letter-spacing: 5px;
     text-transform: uppercase;
     margin-block-start: 10px;
@@ -242,7 +223,7 @@ p, #search-bar {
 }
 
 .planet__latin {
-    color: var(--sun-yellow);
+    color: #ffcc3f;
     font-family: 'Lora', serif;
     font-size: 1.5rem;
     font-weight: 400;
@@ -261,8 +242,8 @@ p, #search-bar {
 .break-line {
     margin: 1.5rem 0 1.5rem 0;
     height: 1px;
-    width: 590px;
-    background-color: rgba(255, 255, 255, 0.598);
+    width: 36rem;
+    background-color: #ffffff98;
 }
 
 .planet-info__temp-dist {
@@ -270,7 +251,6 @@ p, #search-bar {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 6rem;
     row-gap: 2rem;
-    font-family: 'Secular One', sans-serif;
     font-size: 1.2rem;
     letter-spacing: 5px;
 }
@@ -280,7 +260,6 @@ p, #search-bar {
 }
 
 .planet-info__moons {
-    font-family: 'Secular One', sans-serif;
     letter-spacing: 5px;
     line-height: 1.5rem;
     max-width: 36rem;
@@ -318,22 +297,22 @@ p, #search-bar {
 }
 
 #back_btn, #fwd_btn {
-    border: 0.1rem solid var(--earth-blue);
+    border: 0.1rem solid #428ED5;
     border-radius: 0.5rem;
     background-color: transparent;
-    color: white;
     font-size: 1.2rem;
     font-weight: 400;
+    color: #428ED5;
     padding: 0.5rem 1rem;
     transition: all .3s ease-in-out;
-    box-shadow: 0px 0px 10px var(--earth-blue);
+    box-shadow: 0px 0px 10px #428ED5;
 }
 
 #back_btn:hover, #fwd_btn:hover {
-    background-color: var(--earth-blue);
-    color: var(--universe-dark-blue);
+    background-color: #428ED5;
+    color: black;
     transform: scale(1.1);
-    box-shadow: 0px 0px 20px var(--earth-blue);
+    box-shadow: 0px 0px 20px #428ED5;
     transition: all .5s ease-in-out;
     cursor: pointer;
 }
@@ -345,16 +324,15 @@ p, #search-bar {
     border: 0.1rem solid white;
     border-radius: 50%;
     background-color: transparent;
-    font-family: 'Secular One';
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: 300;
     color: white;
-    font-size: 1.2rem;
-    font-weight: 100;
+    text-align: center;
 }
 
 #close-overlay_btn:hover {
     background-color: white;
-    color: var(--universe-dark-blue);
+    color: black;
     transform: scale(1.1);
     box-shadow: 0px 0px 20px white;
     transition: all .5s ease-in-out;
