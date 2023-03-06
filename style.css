@@ -18,13 +18,13 @@ header {
 }
 
 h1 {
-    font-size: 2.7rem;
-    letter-spacing: 0.2rem;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
 }
 
 h2 {
     font-family: Lora;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 100;
     color: #ffcc3f;
     letter-spacing: 0.5rem;
@@ -37,7 +37,7 @@ h3 {
 
 p, #search-bar {
     font-family: Roboto Condensed;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 300;
     letter-spacing: 0.2rem;
 }
@@ -49,7 +49,7 @@ p, #search-bar {
     background-color: black;
     box-shadow: 0px 0px 10px #428ED5;
     margin-top: 3rem;
-    padding: 1rem;
+    padding: 1.5rem 1.5rem 1.5rem 19rem;
     text-align: right;
 }
 
@@ -124,7 +124,7 @@ p, #search-bar {
 #Jorden {
     width: 1.8rem;
     height: 1.8rem;
-    background-color: var(--earth-blue);
+    background-color: #428ED5;
     box-shadow: inset -5px 1px 1px #00000033;
 }
 
@@ -209,7 +209,7 @@ p, #search-bar {
 .planet-info__name-desc {
     margin: 3rem 0rem 3rem 0;
     text-align: justify;
-    max-width: 36.5rem;
+    max-width: 40rem;
 }
 
 .planet__name {
@@ -234,7 +234,7 @@ p, #search-bar {
 
 .planet__descr {
     font-family: 'Roboto Condensed';
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     margin-top: 2rem;
     margin-bottom: -1rem;
 }
@@ -242,7 +242,7 @@ p, #search-bar {
 .break-line {
     margin: 1.5rem 0 1.5rem 0;
     height: 1px;
-    width: 36rem;
+    width: 40rem;
     background-color: #ffffff98;
 }
 
